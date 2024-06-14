@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+	color: darkblue;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color: antiquewhite;
+	padding: 20px;
+}
+
+.novi_blok {
+	color: black;
+	padding: 25px;
+	width: 45%;
+}
+@font-face {  
+	font-family: 'GabrijelaFran';
+	src: url('font/GabrijelaFran1.ttf');
+}
+
+h1 span {
+	font-family: 'GabrijelaFran';
+}
+.pozadina
+span {
+	color: rgb(226, 24, 27); 
+}
+nav {
+    background-color: #333;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    background-color:antiquewhite;
+}
+body { 
+	background-image: url("pozadina.jpg");
+}
